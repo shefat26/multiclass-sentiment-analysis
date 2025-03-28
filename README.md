@@ -1,4 +1,4 @@
-# Multiclass-Twitter-Sentiment-Analysis
+# multiclass-sentiment-analysis
 
 This project leverages a sequential Keras model to categorize tweets related to COVID-19 into five distinct sentiment classes. The model employs GloVe word embeddings and a Bidirectional LSTM architecture for accurate sentiment analysis. The goals is to develop a strong sentiment analysis model to precisely categorize the sentiment of diverse tweets.
 
@@ -49,7 +49,7 @@ The model is consisting of multiple layers including:
 A diagram of developed the model is given below
 
 
-![Developed TF model](https://raw.githubusercontent.com/RezuwanHassan262/Multiclass-Twitter-Sentiment-Analysis/refs/heads/main/figs/model_arch.png) 
+![Developed TF model](https://raw.githubusercontent.com/shefat26/multiclass-sentiment-analysis/refs/heads/main/figs/model_arch.png) 
 
 
 
@@ -62,7 +62,7 @@ After a lot of trials and errors with the parameters and model architecture, thi
 
 We can observe the model's performance on training and validation data, the learning process and its generalization ability. 
 
-![Model train-Loss Curves](https://raw.githubusercontent.com/RezuwanHassan262/Multiclass-Twitter-Sentiment-Analysis/refs/heads/main/figs/train_loss_curves.PNG) 
+![Model train-Loss Curves](https://raw.githubusercontent.com/shefat26/multiclass-sentiment-analysis/refs/heads/main/figs/train_loss_curves.PNG) 
 
 
 Model performance on test data.
@@ -75,7 +75,7 @@ Model performance on test data.
 
 - Confusion Matrix: A confusion matrix is employed to assess the model's performance by visualizing the distribution of true positive, true negative, false positive, and false negative predictions for each sentiment category.
 
-![Confusion Matrix](https://raw.githubusercontent.com/RezuwanHassan262/Multiclass-Twitter-Sentiment-Analysis/refs/heads/main/figs/cf.png)
+![Confusion Matrix](https://raw.githubusercontent.com/shefat26/multiclass-sentiment-analysis/refs/heads/main/figs/cf.png)
 
 - Classification Report: A classification report analyzes the model's precision, recall, and F1-score for each sentiment category.
 
